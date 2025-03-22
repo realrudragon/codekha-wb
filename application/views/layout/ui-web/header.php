@@ -10,11 +10,11 @@
   <?php // Tell the browser to be responsive to screen width 
   ?>
   <?php
+  //Theme-----------------------
+  echo $this->layout_ui->css('ui_templates' . '/' . 'template' . '/' . 'css/master.css');
   //Boostrap-------------------
   echo $this->layout_ui->css('ui_templates' . '/' . 'template' . '/' . 'vendor/boostrap/css/bootstrap.min.css');
   echo $this->layout_ui->css('ui_templates' . '/' . 'template' . '/' . 'vendor/boostrap/css/bootstrap-grid.min.css');
-  //Theme-----------------------
-  echo $this->layout_ui->css('ui_templates' . '/' . 'template' . '/' . 'css/web.css');
   ?>
   <?php
   //CSS Url

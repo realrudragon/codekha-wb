@@ -1,4 +1,4 @@
-    <section class="py-5">
+<section class="py-5">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-md-6 text-md-start">
@@ -16,7 +16,11 @@
             </div>
         </div>
     </section>
-
+<style>
+   .em{
+    color: white !important;
+   } 
+</style>
 
     <div class="container py-5">
         <div class="row align-items-center mb-5">

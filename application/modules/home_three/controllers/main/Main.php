@@ -20,14 +20,14 @@
 			$data = array(
 				'icon' => '',
 				'title' => 'Home',
-				'img_url' => BURL . 'assets/ui_templates/template/img/home1/',
+				'img_url' => BURL . 'assets/ui_templates/template/img/',
 				// Add URL
 				'css_url' => array(),
 				'js_url' => array(),
 				'plugins_js_url' => array(),
 				// Add file
 				'css_add' => array(
-					'home1/css/web.css',
+					'home3/css/web.css',
 				),
 				'js_add' => array(
 				),

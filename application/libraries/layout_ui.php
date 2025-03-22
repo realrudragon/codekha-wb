@@ -53,17 +53,17 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     // add file
     public function css_add($path_and_filename, $attr = array())
     {
-      $rel_preload = '<link rel="preload" href="' . base_url() . 'assets/layout-ui/ui_templates' . '/addcontrollers/' . $path_and_filename . '" rel="stylesheet" type="text/css" ' . $this->conv_to_text($attr) . '/>' . "\r\n\t\t";
-      $rel_style = '<link href="' . base_url() . 'assets/layout-ui/ui_templates' . '/addcontrollers/' . $path_and_filename . '" rel="stylesheet" type="text/css" ' . $this->conv_to_text($attr) . '/>' . "\r\n\t\t";
+      $rel_preload = '<link rel="preload" href="' . base_url() . 'assets/ui_templates' . '/addcontrollers/' . $path_and_filename . '" rel="stylesheet" type="text/css" ' . $this->conv_to_text($attr) . '/>' . "\r\n\t\t";
+      $rel_style = '<link href="' . base_url() . 'assets/ui_templates' . '/addcontrollers/' . $path_and_filename . '" rel="stylesheet" type="text/css" ' . $this->conv_to_text($attr) . '/>' . "\r\n\t\t";
       return $rel_preload . ' ' . $rel_style;
     }
     public function js_add($path_and_filename, $attr = array())
     {
-      return '<script src="' . base_url() . 'assets/layout-ui/ui_templates' . '/addcontrollers/' . $path_and_filename . '" type="text/javascript" ' . $this->conv_to_text($attr) . '></script>' . "\r\n\t\t";
+      return '<script src="' . base_url() . 'assets/ui_templates' . '/addcontrollers/' . $path_and_filename . '" type="text/javascript" ' . $this->conv_to_text($attr) . '></script>' . "\r\n\t\t";
     }
     public function plugins_js_add($path_and_filename, $attr = array())
     {
-      return '<script src="' . base_url() . 'assets/layout-ui/ui_templates' . '/addcontrollers/' . $path_and_filename . '" type="text/javascript" ' . $this->conv_to_text($attr) . '></script>' . "\r\n\t\t";
+      return '<script src="' . base_url() . 'assets/ui_templates' . '/addcontrollers/' . $path_and_filename . '" type="text/javascript" ' . $this->conv_to_text($attr) . '></script>' . "\r\n\t\t";
     }
 
     // Layout_begin Path

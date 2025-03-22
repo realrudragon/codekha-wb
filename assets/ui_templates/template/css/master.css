@@ -1,0 +1,11 @@
+.bg-nav {
+    background-color: transparent ;
+  }
+.nav-link {
+  color: #000000;
+ }
+ span.navbar-toggler-icon.ai-style-change-1 {
+  background-image: linear-gradient(to bottom, black 0%, black 20%, transparent 20%, transparent 40%, black 40%, black 60%, transparent 60%, transparent 80%, black 80%, black 100%);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
