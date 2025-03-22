@@ -2,9 +2,8 @@
 $CI = get_instance();
 
 //Layout -----------------//
-$config['layout_ui_web'] = 'layout/ui-web/';
-$config['title'] = "CodeKit : แข่ง";
-
+$config['app_layout_ui'] = 'layout/ui-web/';
+$config['title'] = "Ensome Landing Page";
 // base_url ---------------- //
 $config['base_url'] = ((isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] == "on") ? "https" : "http");
 $config['base_url'] .= "://" . $_SERVER['HTTP_HOST'];

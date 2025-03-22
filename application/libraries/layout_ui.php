@@ -1,6 +1,6 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
-  class Layout_ui_web
+  class Layout_ui
   {
     // add main
     public function css($path_and_filename, $attr = array())
@@ -18,6 +18,22 @@ defined('BASEPATH') OR exit('No direct script access allowed');
       return '<script src="' . base_url() . 'assets/layout-ui/' . $path_and_filename . '" type="text/javascript" ' . $this->conv_to_text($attr) . '></script>' . "\r\n\t\t";
     }
 
+    // add info
+    public function css_info($path_and_filename, $attr = array())
+    {
+      $rel_preload = '<link rel="preload" href="' . base_url() . 'assets/libs/' . $path_and_filename . '" as="style" ' . $this->conv_to_text($attr) . '/>' . "\r\n\t\t";
+      $rel_style = '<link href="' . base_url() . 'assets/libs/' . $path_and_filename . '" rel="stylesheet" type="text/css" ' . $this->conv_to_text($attr) . '/>' . "\r\n\t\t";
+      return $rel_preload . ' ' . $rel_style;
+    }
+    public function js_info($path_and_filename, $attr = array())
+    {
+      return '<script src="' . base_url() . 'assets/libs/' . $path_and_filename . '" type="text/javascript" ' . $this->conv_to_text($attr) . '></script>' . "\r\n\t\t";
+    }
+    public function plugins_js_info($path_and_filename, $attr = array())
+    {
+      return '<script src="' . base_url() . 'assets/libs/' . $path_and_filename . '" type="text/javascript" ' . $this->conv_to_text($attr) . '></script>' . "\r\n\t\t";
+    }
+  
     // url
     public function css_url($path_and_filename, $attr = array())
     {

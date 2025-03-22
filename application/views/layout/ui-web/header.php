@@ -9,21 +9,10 @@
   <title><?php echo " " . $title; ?> - <?php echo $this->config->item('title'); ?></title>
   <?php // Tell the browser to be responsive to screen width 
   ?>
-  <?php //Add
-  //EX
-  echo $this->layout_ui->css('ui_templates' . '/' . 'roofing_web' . '/' . 'vendor/swiper/swiper-bundle.min.css' . '?loadst=' . Date('ymdHis'));
-  echo $this->layout_ui->css('ui_templates' . '/' . 'roofing_web' . '/' . 'css/theme.css');
-  echo $this->layout_ui->css('ui_templates' . '/' . 'roofing_web' . '/' . 'css/style.css');
-  ?>
-  <?php //Add Libs
-  //EX
-  echo $this->layout_ui->css_info('lobibox/css/lobibox.min.css');
-  //toastr
-  echo $this->layout_ui->css_info('jquerypopupbox/css/toastrsuccessicon.css');
-  //growl-notification
-  echo $this->layout_ui->css_info('growl-notification/css/dark-theme.min.css');
-  echo $this->layout_ui->css_info('growl-notification/css/colored-theme.min.css');
-  echo $this->layout_ui->css_info('growl-notification/css/light-theme.min.css');
+  <?php
+  //Boostrap-------------------
+  echo $this->layout_ui->css('ui_templates' . '/' . 'template' . '/' . 'vendor/css/booststrap.min.css');
+  echo $this->layout_ui->css('ui_templates' . '/' . 'template' . '/' . 'vendor/css/booststrap.grid.min.css');
   ?>
   <?php
   //CSS Url

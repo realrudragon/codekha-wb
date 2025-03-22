@@ -6,6 +6,7 @@
 		public function __construct()
 		{
 			parent::__construct();
+			$this->load->library('layout_ui');
 			$this->load->module('home');
 		}
 
@@ -28,19 +29,19 @@
 				'plugins_js_url' => array(),
 				// Add file
 				'css_add' => array(
-					'hosting/css/meni/meni' . MIN_LOAD_FILE . '/meni.css' . '?logvsj=' . date('ymdHis'),
+					// 'hosting/css/main/meni/meni.css',
 				),
 				'js_add' => array(
-					'hosting/js/meni/meni' . MIN_LOAD_FILE . '/meni.js' . '?logvsj=' . date('ymdHis'),
+					// 'hosting/js/meni/meni/meni.js',
 				),
 				'plugins_js_add' => array(
-					'hosting/plugins_js/meni/meni' . MIN_LOAD_FILE . '/meni.js' . '?logvsj=' . date('ymdHis'),
+					// 'hosting/plugins_js/meni/meni/meni.js',
 				),
 				// View
-				'script' => "/meni/meni/script/meni_script",
-				'view' => "/meni/meni/meni_view",
+				'script' => "/main/main/script/main_script",
+				'view' => "/main/main/main_view",
 			);
-			$this->load->view($this->config->item(B_TP_VG_LAYUI) . B_TP_VI_LAYUI, $data);
+			$this->load->view($this->config->item("app_layout_ui") . "layout-ui-tm", $data);
 		}
 
 	// Controller
