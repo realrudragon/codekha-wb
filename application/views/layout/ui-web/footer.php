@@ -39,9 +39,9 @@
                 <div class="col-lg-2 col-md-4">
                     <h5 class="text-uppercase mb-4">Contact info</h5>
                     <ul class="list-unstyled">
-                        <li class="mb-2">ensome@info.co.us</li>
-                        <li class="mb-2">+1 601-201-5580</li>
-                        <li>1642 Washington Avenue, Jackson, MS, Mississippi, 39201</li>
+                        <li class="mb-2">xxxxx@gmail.com</li>
+                        <li class="mb-2">xxx-xxx-xxx-xxx</li>
+                        <li>xxx xxxx xxx x xxxx</li>
                     </ul>
                 </div>
             </div>

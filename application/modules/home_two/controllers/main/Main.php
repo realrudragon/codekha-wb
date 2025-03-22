@@ -20,7 +20,7 @@
 			$data = array(
 				'icon' => '',
 				'title' => 'Home',
-				'img_url' => BURL . 'assets/ui_templates/template/img/',
+				'img_url' => BURL . 'assets/ui_templates/template/img/home2/',
 				// Add URL
 				'css_url' => array(),
 				'js_url' => array(),

@@ -29,7 +29,9 @@ p {
 footer {
   background-color: #002b4e;
 }
-
+.dark {
+  background-color: #002b4e;
+}
 footer a {
   color: rgba(255, 255, 255, 0.8);
 }

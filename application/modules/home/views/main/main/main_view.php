@@ -135,32 +135,6 @@
         </div>
     </div>
 </div>
-<!-- <div style="background-color: #185cff;">
-    <br>
-    <br>
-    <div class="container">
-        <div class="row">
-            <div class="text-light font-weight-bold col-md-3">
-                <h1 class="display-4">1830+</h1>
-                <p>Project executed</p>
-            </div>
-            <div class="text-light font-weight-bold col-md-3">
-                <h1 class="display-4">220</h1>
-                <p>Data analytics</p>
-            </div>
-            <div class="text-light font-weight-bold col-md-3">
-                <h1 class="display-4">390</h1>
-                <p>Data management</p>
-            </div>
-            <div class="text-light font-weight-bold col-md-3">
-                <h1 class="display-4">834+</h1>
-                <p>Satisfied customers</p>
-            </div>
-        </div>
-    </div>
-    <br>
-    <br>
-</div> -->
 <div class="py-5">
   <div class="container">
     <h2 class="mb-4">Trusted by the best<br>in the business</h2>
