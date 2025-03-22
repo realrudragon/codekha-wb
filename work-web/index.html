@@ -54,6 +54,41 @@
             max-height: 40px; 
             padding-left: 200px;
         }
+        .img-fluid {
+            max-height: 450px; 
+        }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        footer {
+            background-color: #ffffff; 
+            padding: 40px 0;
+            color: #333; 
+        }
+
+        footer a {
+            color: #333;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        .social-icons a {
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            width: 30px;
+            height: 30px;
+            background-color: #1a73e8; 
+            color: white; 
+            border-radius: 50%;
+            margin-right: 10px;
+        }
 </style>
     </head>
     <body>
@@ -105,7 +140,7 @@
       </div>
       </div>
       <div style="background-color: #f0f8ff; padding: 30px;">
-      <div class="container my-5 ">
+      <div class="container-fluid">
         <div class="container text-center">
             <h2>Why our clients chose Ensome?</h2>
             <p>Doloremque laudantium, totam rem aperiam, eaque ipsa<br> quae ab illo inventore veritatis et quasi architecto beatae<br> vitae dicta sunt explicabo.</p>
@@ -136,7 +171,9 @@
     </div>
     </div>
 </div>
-    <div class="container my-5">
+
+<br>
+    <div class="container-fluid">
         <div class="row align-items-center">
             <div class="col-md-6">
                 <h2>The newest business analytical platform</h2>
@@ -148,7 +185,7 @@
             </div>
         </div>
     </div>
-    <div class="container my-5">
+    <div class="container-fluid">
         <div class="row align-items-center">
             <div class="col-md-6">
                 <img src="003.png" alt="Platform Image" class="img-fluid">
@@ -160,8 +197,9 @@
             </div>
         </div>
     </div>
+    <br>
     <div style="background-color: #f0f8ff; padding: 30px;">
-        <div class="container my-5 ">
+        <div class="container-fluid">
           <div class="container text-center">
               <h2>Why our clients chose Ensome?</h2>
           </div>
@@ -201,6 +239,85 @@
         </div>
   </div>
     
+
+  <div class="container-fluid" style="background-color: #1a73e8; color: white; padding: 50px 0;">
+    <div class="row text-center">
+        <div class="col-md-3">
+            <h2 style="margin-bottom: 10px;">1830+</h2>
+            <p style="font-size: 16px;">Project executed</p>
+        </div>
+        <div class="col-md-3">
+            <h2 style="margin-bottom: 10px;">220</h2>
+            <p style="font-size: 16px;">Data analytics</p>
+        </div>
+        <div class="col-md-3">
+            <h2 style="margin-bottom: 10px;">390</h2>
+            <p style="font-size: 16px;">Data management</p>
+        </div>
+        <div class="col-md-3">
+            <h2 style="margin-bottom: 10px;">834+</h2>
+            <p style="font-size: 16px;">Satisfied customers</p>
+        </div>
+    </div>
+</div>
+
+
+<footer>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-3">
+                <img src="logo_blue.png" alt="Ensome Logo">
+            </div>
+            <div class="col-md-3">
+                <h4>About</h4>
+                <p><a href="#">Home</a></p>
+                <p><a href="#">About Us</a></p>
+                <p><a href="#">Services</a></p>
+                <p><a href="#">Solutions</a></p>
+            </div>
+            <div class="col-md-3">
+                <h4>Information</h4>
+                <p><a href="#">Contacts</a></p>
+                <p><a href="#">Our team</a></p>
+                <p><a href="#">Blog</a></p>
+                <p><a href="#">FAQ</a></p>
+            </div>
+            <div class="col-md-3">
+                <h4>Service</h4>
+                <p><a href="#">Pages</a></p>
+                <p><a href="#">Elements</a></p>
+                <p><a href="#">Site map</a></p>
+                <p><a href="#">Pricing</a></p>
+                <p><a href="#">FAQ</a></p>
+            </div>
+        </div>
+        <hr class="my-4">
+        <div class="row">
+            <div class="col-md-4">
+                <h4>Contacts</h4>
+                <p>+66 999-999-9999</p>
+                <p>1642 Washington Avenue, Jackson, MS 39201 <a href="#">Driving derections &rarr;</a></p>
+                <p>ensome@info.co.us &rarr;</p>
+            </div>
+            <div class="col-md-4">
+                <h4>Social</h4>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                    <a href="#"><i class="fab fa-google-plus-g"></i></a>
+                </div>
+            </div>
+            <div class="col-md-4 text-end">
+                <p><a href="#">Privacy policy &rarr;</a> &nbsp; <a href="#">Terms of us &rarr;</a></p>
+                <p>&copy; 2022 Ensome. All Rights Reserved.</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
       <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
       <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
       <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
