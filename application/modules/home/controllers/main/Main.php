@@ -19,10 +19,8 @@
 		{
 			$data = array(
 				'icon' => '',
-				'title' => 'Web Hosting เว็บโฮสติ้ง',
-				'image' => BURL . 'assets/upload/og_image/' . 'hosting.png' . '?imgl=' . date('ymdHis'),
-				'control_name' => 'เว็บโฮสติ้ง Cloud Hosting',
-				'control_url' => BURL . 'hosting',
+				'title' => 'Home',
+				'img_url' => BURL . 'assets/ui_templates/template/img/',
 				// Add URL
 				'css_url' => array(),
 				'js_url' => array(),
@@ -38,7 +36,7 @@
 					// 'hosting/plugins_js/meni/meni/meni.js',
 				),
 				// View
-				'script' => "/main/main/script/main_script",
+				// 'script' => "/main/main/script/main_script",
 				'view' => "/main/main/main_view",
 			);
 			$this->load->view($this->config->item("app_layout_ui") . "layout-ui-tm", $data);

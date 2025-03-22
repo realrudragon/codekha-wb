@@ -1,8 +1,8 @@
 <?php // load header?>
 <?php $this->load->view($this->config->item ('app_layout_ui') . 'header')?>
 
-<?php // load Menu?>
-<?php //$this->load->view($this->config->item ('app_layout_ui') . 'menu')?>
+<?php // load Navbar?>
+<?php $this->load->view($this->config->item ('app_layout_ui') . 'navbar')?>
 
 <?php //View?>
 <?php if(isset($view)){ $this->load->view($view); } ?>
@@ -11,7 +11,7 @@
 <?php if(isset($script)){ $this->load->view($script); } ?>
 
 <?php // load Footer?>
-<?php //$this->load->view($this->config->item ('app_layout_ui') . 'footer')?>
+<?php $this->load->view($this->config->item ('app_layout_ui') . 'footer')?>
 
 <?php // load Jquery Add?>
 <?php $this->load->view($this->config->item ('app_layout_ui') . 'jqueryadd')?>

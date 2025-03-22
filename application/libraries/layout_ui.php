@@ -5,17 +5,17 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     // add main
     public function css($path_and_filename, $attr = array())
     {
-      $rel_preload = '<link rel="preload" href="' . base_url() . 'assets/layout-ui/' . $path_and_filename . '" as="style" ' . $this->conv_to_text($attr) . '/>' . "\r\n\t\t";
-      $rel_style = '<link href="' . base_url() . 'assets/layout-ui/' . $path_and_filename . '" rel="stylesheet" type="text/css" ' . $this->conv_to_text($attr) . '/>' . "\r\n\t\t";
+      $rel_preload = '<link rel="preload" href="' . base_url() . 'assets/' . $path_and_filename . '" as="style" ' . $this->conv_to_text($attr) . '/>' . "\r\n\t\t";
+      $rel_style = '<link href="' . base_url() . 'assets/' . $path_and_filename . '" rel="stylesheet" type="text/css" ' . $this->conv_to_text($attr) . '/>' . "\r\n\t\t";
       return $rel_preload . ' ' . $rel_style;
     }
     public function js($path_and_filename, $attr = array())
     {
-      return '<script src="' . base_url() . 'assets/layout-ui/' . $path_and_filename . '" type="text/javascript" ' . $this->conv_to_text($attr) . '></script>' . "\r\n\t\t";
+      return '<script src="' . base_url() . 'assets/' . $path_and_filename . '" type="text/javascript" ' . $this->conv_to_text($attr) . '></script>' . "\r\n\t\t";
     }
     public function plugins_js($path_and_filename, $attr = array())
     {
-      return '<script src="' . base_url() . 'assets/layout-ui/' . $path_and_filename . '" type="text/javascript" ' . $this->conv_to_text($attr) . '></script>' . "\r\n\t\t";
+      return '<script src="' . base_url() . 'assets/' . $path_and_filename . '" type="text/javascript" ' . $this->conv_to_text($attr) . '></script>' . "\r\n\t\t";
     }
 
     // add info

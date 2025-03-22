@@ -1,0 +1,83 @@
+.hero {
+    background-color: #ffffff;
+    padding: 100px 0;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+.partner-logos {
+    padding: 50px 0;
+    text-align: center;
+}
+.partner-logos img {
+    margin: 0 20px;
+    max-height: 100px; 
+}
+.navbar-nav {
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.nav-item {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.hero img {
+    position: absolute;
+    top: 50%;
+    right: 80px;
+    transform: translateY(-50%);
+    max-height: 400px;
+}
+.hero .container {
+    max-width: 100%; 
+    padding-left: 50px;
+    padding-right: 50%;
+    text-align: left;
+}
+.navbar-brand img {
+    max-height: 40px; 
+    padding-left: 200px;
+}
+.img-fluid {
+    max-height: 450px; 
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    background-color: #ffffff; 
+    padding: 40px 0;
+    color: #333; 
+}
+
+footer a {
+    color: #333;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.social-icons a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    background-color: #1a73e8; 
+    color: white; 
+    border-radius: 50%;
+    margin-right: 10px;
+}

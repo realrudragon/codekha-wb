@@ -11,8 +11,10 @@
   ?>
   <?php
   //Boostrap-------------------
-  echo $this->layout_ui->css('ui_templates' . '/' . 'template' . '/' . 'vendor/css/booststrap.min.css');
-  echo $this->layout_ui->css('ui_templates' . '/' . 'template' . '/' . 'vendor/css/booststrap.grid.min.css');
+  echo $this->layout_ui->css('ui_templates' . '/' . 'template' . '/' . 'vendor/boostrap/css/bootstrap.min.css');
+  echo $this->layout_ui->css('ui_templates' . '/' . 'template' . '/' . 'vendor/boostrap/css/bootstrap-grid.min.css');
+  //Theme-----------------------
+  echo $this->layout_ui->css('ui_templates' . '/' . 'template' . '/' . 'css/web.css');
   ?>
   <?php
   //CSS Url
